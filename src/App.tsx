@@ -24,7 +24,8 @@ function App() {
     "State Management - Redux",
     "API - RTK Query",
     "Forms - React Forms",
-    "Component Library - Shadcn",
+    "Forms Validation - ZOD",
+     "Component Library - Shadcn"
   ];
 
   return (
