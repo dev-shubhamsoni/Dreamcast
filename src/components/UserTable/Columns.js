@@ -30,7 +30,7 @@ export const columns = [
         accessorKey: "actions",
         header: "Actions",
         cell: ({ row }) => {
-            const userId = row.original.id; // Get the `id` from the row's data
+            const userId = row.original.id;
             return (_jsxs("div", { className: "flex items-center gap-4", children: [_jsx(EditUserComp, { id: userId }), _jsx(DeleUserComp, { id: userId })] }));
         },
     },
